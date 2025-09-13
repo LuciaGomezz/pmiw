@@ -34,7 +34,7 @@ function draw() {
   for ( posX = width / 2; posX < width; columna++) {
     distX = dist(posX, 0, centroX, 0);
     tam = calcularTam(distX, maxDist);
-    for (let fila = 0; fila < filas; fila++) {
+    for (fila = 0; fila < filas; fila++) {
       posY = fila * alto;
 
       //Colores/forma segun el modo
@@ -91,3 +91,4 @@ function keyPressed() {
     modo = 0;
   }
 }
+
